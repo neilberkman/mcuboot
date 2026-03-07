@@ -168,7 +168,7 @@ jobs:
 
       - name: Run OTA resilience sweep
         id: ota_resilience
-        uses: neilberkman/tardigrade@02bc0b1fe66d41a15cf10592a0563f627da3fb00
+        uses: neilberkman/tardigrade@2e99e834e0c304f94978afe3a6698ee8984360a9
         with:
           profile: repos/ota_resilience_profile.yaml
           quick: "false"
